@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+</head>
+<script>
+	function volver(){
+		window.location.href='inf_cliente1.html'
+	}
+</script>
+<body>
+	<nav>
+		<ul>
+			<li><a class="a" href="../home.html" title="HOME">HOME</a></li>|
+			<li><a class="a" href="clientes.html" title="Clientes">Clientes</a></li>|
+			<li><a class="a" href="../productos/productos.html" title="Productos">Productos</a></li>|
+			<li><a class="a" href="../ventas/ventas.html" title="Ventas">Ventas</a></li>|
+			<li><a class="a" href="../index.html" title="Salir">Salir</a></li>|
+		</ul>
+	</nav>
+	<form action="inf_cliente1.html" method="post" accept-charset="utf-8">
+		<div>
+			<label>Nombre</label>
+			<input type="text" name="name" value="Javier" placeholder="name">
+		</div>
+		<div>
+			<label>Apellido</label>
+			<input type="text" name="apelido" value="Becerra" placeholder="apellido">
+		</div>
+		<div>
+			<label>ID</label>
+			<input type="text" name="ID" value="2345" placeholder="ID">
+		</div>
+		<div>
+			<label>Correo</label>
+			<input type="text" name="correo" value="jaalbeve99@gmail.com" placeholder="correo">
+		</div>
+		<div>
+			<label>telefono</label>
+			<input type="text" name="telefono" value="3501" placeholder="telefono">
+		</div><br>
+		<button type="submit" onclick="volver()">Volver</button>&nbsp
+		<button type="submit">editar</button>
+	</form><br>
+</body>
+<footer>
+	<p>JAVIER ALEXANDER BECERRA VEGA</p>
+</footer>
+</html>

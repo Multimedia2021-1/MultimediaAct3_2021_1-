@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+</head>
+<script>
+	function volver(){
+		window.location.href='productos.html'
+	}
+</script>
+<body>
+	<nav>
+		<ul>
+			<li><a class="a" href="../home.html" title="HOME">HOME</a></li>|
+			<li><a class="a" href="../clientes/clientes.html" title="Clientes">Clientes</a></li>|
+			<li><a class="a" href="productos.html" title="Productos">Productos</a></li>|
+			<li><a class="a" href="../ventas/ventas.html" title="Ventas">Ventas</a></li>|
+			<li><a class="a" href="../index.html" title="Salir">Salir</a></li>|
+		</ul>
+	</nav>
+	<form action="productos.html" method="get" accept-charset="utf-8">
+		<div>
+			<label>ID</label>
+			<input type="text" name="ID" value="" placeholder="ID">
+		</div>
+		<div>
+			<label>Nombre</label>
+			<input type="text" name="nombre" value="" placeholder="nombre">
+		</div>
+		<div>
+			<label>Precio</label>
+			<input type="text" name="precio" value="" placeholder="precio">
+		</div>
+		<div>
+			<label>Cantidad</label>
+			<input type="text" name="cantidad" value="" placeholder="cantidad">
+		</div><br>
+		<button type="submit" onclick="volver()">Volver</button>&nbsp
+		<button type="submit">Añadir</button>
+	</form><br>
+</body>
+<footer>
+	<p>JAVIER ALEXANDER BECERRA VEGA</p>
+</footer>
+</html>

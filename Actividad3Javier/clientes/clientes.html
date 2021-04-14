@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+</head>
+<script>
+	function volver(){
+		window.location.href='../home.html'
+	}
+	function añadir_cliente(){
+		window.location.href='añadir_cliente.html'
+	}
+</script>
+<body>
+	<nav>
+		<ul>
+			<li><a class="a" href="../home.html" title="HOME">HOME</a></li>|
+			<li><a class="a" href="clientes.html" title="Clientes">Clientes</a></li>|
+			<li><a class="a" href="../productos/productos.html" title="Productos">Productos</a></li>|
+			<li><a class="a" href="../ventas/ventas.html" title="Ventas">Ventas</a></li>|
+			<li><a class="a" href="../index.html" title="Salir">Salir</a></li>|
+		</ul>
+	</nav>
+	<table border="3">
+		<caption>CLIENTES</caption>
+		<thead>
+			<tr>
+				<th>Nombre</th>
+				<th>Apellido</th>
+				<th>ID</th>
+				<th>Caracteristicas</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Javier</td>
+				<td>Becerra</td>
+				<td>2345</td>
+				<td><a href="inf_cliente1.html">Informacion</a></td>
+			</tr>
+			<tr>
+				<td>Dayana</td>
+				<td>Garzon</td>
+				<td>3456</td>
+				<td><a href="inf_cliente1.html">Informacion</a></td>
+			</tr>
+		</tbody>
+	</table><br>
+	<button type="submit" onclick="volver()">Volver</button>&nbsp
+	<button type="submit" onclick="añadir_cliente()">Añadir</button>
+</body>
+<footer>
+	<p>JAVIER ALEXANDER BECERRA VEGA</p>
+</footer>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+</head>
+<script>
+	function volver(){
+		window.location.href='../home.html'
+	}
+	function añadir_venta(){
+		window.location.href='añadir_venta.html'
+	}
+</script>
+<body>
+	<nav>
+		<ul>
+			<li><a class="a" href="../home.html" title="HOME">HOME</a></li>|
+			<li><a class="a" href="../clientes/clientes.html" title="Clientes">Clientes</a></li>|
+			<li><a class="a" href="../productos/productos.html" title="Productos">Productos</a></li>|
+			<li><a class="a" href="ventas.html" title="Ventas">Ventas</a></li>|
+			<li><a class="a" href="../index.html" title="Salir">Salir</a></li>|
+		</ul>
+	</nav>
+	<table border="3">
+		<caption>VENTAS</caption>
+		<thead>
+			<tr>
+				<th>Nombre_producto</th>
+				<th>ID_producto</th>
+				<th>Nombre_cliente</th>
+				<th>ID_cliente</th>
+				<th>Cantidad productos</th>
+				<th>total a pagar</th>
+				<th>caracteristicas</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>short</td>
+				<td>234</td>
+				<td>javier</td>
+				<td>2345</td>
+				<td>3</td>
+				<td>27000</td>
+				<td><a href="inf_venta1.html">informacion</a></td>
+			</tr>
+			<tr>
+				<td>pijama</td>
+				<td>123</td>
+				<td>dayana</td>
+				<td>3456</td>
+				<td>2</td>
+				<th>30000</th>
+				<td><a href="inf_venta1.html">informacion</a></td>
+			</tr>
+		</tbody>
+	</table><br>
+	<button type="submit" onclick="volver()">Volver</button>
+	<button type="submit" onclick="añadir_venta()">añadir</button>
+</body>
+<footer>
+	<p>JAVIER ALEXANDER BECERRA VEGA</p>
+</footer>
+</html>

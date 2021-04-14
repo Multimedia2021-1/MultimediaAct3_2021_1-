@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+</head>
+<script>
+	function volver(){
+		window.location.href='ventas.html'
+	}
+
+</script>
+<body>
+	<nav>
+		<ul>
+			<li><a class="a" href="../home.html" title="HOME">HOME</a></li>|
+			<li><a class="a" href="clientes.html" title="Clientes">Clientes</a></li>|
+			<li><a class="a" href="../productos/productos.html" title="Productos">Productos</a></li>|
+			<li><a class="a" href="../ventas/ventas.html" title="Ventas">Ventas</a></li>|
+			<li><a class="a" href="../index.html" title="Salir">Salir</a></li>|
+		</ul>
+	</nav>
+	<form action="ventas.html" method="post" accept-charset="utf-8">
+		<div>
+			<label>Nombre_prducto</label>
+			<input type="text" name="nombre_producto" value="" placeholder="nombre_producto">
+		</div>
+		<div>
+			<label>ID_producto</label>
+			<input type="text" name="ID_producto" value="" placeholder="ID_producto">
+		</div>
+		<div>
+			<label>Nombre_cliente</label>
+			<input type="text" name="nombre_cliente" value="" placeholder="nomnbre_cliente">
+		</div>
+		<div>
+			<label>ID_cliente</label>
+			<input type="text" name="ID_cliente" value="" placeholder="ID_cliente">
+		</div>
+		<div>
+			<label>cantidad productos</label>
+			<input type="text" name="cantidad_productos" value="" placeholder="cantidad_productos">
+		</div>
+		<div>
+			<label>total a pagar</label>
+			<input type="text" name="total_pagar" value="" placeholder="total_pagar">
+		</div>
+		<button type="submit" onclick="volver()">Volver</button>&nbsp
+		<button type="submit" onclick="añadir_venta()">Añadir</button>
+	</form><br>
+</body>
+<footer>
+	<p>JAVIER ALEXANDER BECERRA VEGA</p>
+</footer>
+</html>

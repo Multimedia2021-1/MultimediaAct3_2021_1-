@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>LA TIENDITA_PROMO DEL DIA</title>
+  <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+  <header>
+    <section class="wrapper">
+      <nav>
+	<ul>
+		  <li><a href="Home.html">INICIO</a></li>
+      <li><a href="Productos.html">PRODUCTOS</a></li>
+      <li><a href="Promo.html">PROMO DEL DIA</a></li>
+      <li><a href="Registrar.html">CLIENTE NUEVO</a></li>
+      <li><a href="IniciarSesion.html">INICIAR SESION</a></li>
+      </ul>
+    </nav>
+  </section>
+</header>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <font face="Arial">
+<center><h2>Ingresa tus datos de Acceso</h2></center>
+<form name="login"> 
+     <center><table width="200" border="0"> 
+      <right><img src="Imagenes/Homero.jpg" width="100" height="100" /></right>
+       <tr> 
+         <th scope="row"><h3>Usuario</h3></th> 
+         <td><span class="cnt"> 
+           <input name="usuario" type="text" class="Input" value="" size="20" /> 
+         </span></td> 
+       </tr> 
+       <tr> 
+         <th height="20" scope="row"><h3>Contrasena</h3></th> 
+         <td><span class="cnt"> 
+           <input name="password" type="password" class="Input" value="" size="20" /> 
+         </span></td> 
+         <br>
+         <td><span class="cnt">
+                    <input value="INGRESAR" target="_parent" onclick="Login()" type="button" class="boton"/> 
+         </span></td> 
+       </tr> 
+       <tr> 
+         <th scope="row"><input type="reset" name="Borrar" id="Borrar" value="Limpiar" class="boton" /></th> 
+       </tr> 
+     </table></center> 
+</form> 
+
+<script language="JavaScript"> 
+
+function Login(){ 
+var done=0; 
+var usuario=document.login.usuario.value; 
+var password=document.login.password.value; 
+if (usuario=="oscar" && password=="1234") { 
+window.location="Pagina_Bienvenida1.html"; 
+} 
+if (usuario=="danna" && password=="1234") { 
+window.location="Pagina_Bienvenida2.HTML"; 
+} 
+if (usuario=="" && password=="") { 
+window.location="UffLoSiento.html"; 
+} 
+} 
+        </script> 
+</center> 
+<script language="Javascript"> 
+<!-- Begin 
+document.oncontextmenu = function(){return false} 
+// End --> 
+</script>
+
+</body>
+
+</html>
+  <footer>        
+        </div>
+        <footer class="piepagina">
+          <br>
+          <br>
+          <h4><center>OSCAR EMILIO IBAÑEZ</center></h4>
+          <h4><center>Laboratorio de MULTIMEDIA - Abril 2021</center></h4>
+        </footer>
+        </div>
+    </footer>
